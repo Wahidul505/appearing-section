@@ -1,0 +1,13 @@
+#first-blog , #last-blog{
+    position: relative;
+    transform: translate(0%);
+    animation: float 1s linear 0s 1;
+}
+@keyframes float {
+    0%{
+        transform: translate(-100%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+}
